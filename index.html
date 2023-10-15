@@ -1,0 +1,106 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="style.css">          
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    </header>
+   
+    <body>
+        <p class="nomeCurso fonteImportada textoBranco">Curso de renderização em Enscape</p>
+        <p class="fonteImportada nomeOficial">Método Render Pro</p>
+
+        <div class="cabecalho">
+            <p class="primeiroTexto fonteImportada textoBranco">Aprenda <span class="palavrasDestaque">técnicas avançadas</span> de renderização em tempo real, domine os <span class="palavrasDestaque">truques</span> dos <span class="palavrasDestaque">profissionais</span> e dê vida aos seus designs <span class="palavrasDestaque">em um piscar de olhos!</span></p>
+            <img class="imagemCabecalho" src="imagens/cabecalho.png">
+        </div>
+        
+        <div class="boxVideoProfissional">
+            <div class="fonteImportada alinharDireita texto38">Faça vídeos profissionais como este:</div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <video controls autoplay loop muted>
+                <source src="videos/video1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="praQuemEhOCurso">            
+            <p class="primeiroTexto fonteImportada alinharCentro palavrasDestaque">Pra quem é este curso?</p>
+            <p class="primeiroTexto fonteImportada textoBranco alinharCentro texto28">Este treinamento é destinado a Arquitetos, Designers de Interiores, Engenheiros Civis e a todos os profissionais que fazem uso do Sketchup e desejam criar projetos impressionantes em tempo real, de forma prática e lucrativa.</p>            
+        </div>
+        
+        <div class="renders">
+            
+            <img src="imagens/fachada.jpg" class="render imagem" onclick="ampliarImagem('imagens/fachada.jpg')">                                
+            <img src="imagens/fachada2.jpg" class="render imagem" onclick="ampliarImagem('imagens/fachada2.jpg')">                                
+            <img src="imagens/areadelazer.jpg" class="render imagem" onclick="ampliarImagem('imagens/areadelazer.jpg')">                                
+            <img src="imagens/sala.png" class="render imagem" onclick="ampliarImagem('imagens/sala.png')">                                
+            
+            <div class="overlay" id="overlay">
+                <div class="imagem-ampliada" id="imagemAmpliada"></div>                
+                <button class="botaoFechar fonteImportada" onclick="fecharImagem()">X</button>
+            </div>
+
+            
+            
+        </div>
+
+        
+        <div class="secaoComprar">
+
+            
+        <div class="arrow setaPreco">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+            <div class="boxComprar fonteImportada texto28">
+                <a class="espacoComprar" href="https://www.enrriquesdesign.com/rendermais">
+                    <button class="botaoComprar">Iniciar curso</button>
+                </a>
+                <p class="fontePreco">12x24,75</p>
+                <p class="linha fontePreco alinharCentro">Ou R$297,00 à vista</p>
+                <p class="linha corCinza">2 (dois) anos de acesso</p>
+                <p class="linha corCinza">Cenas internas e externas</p>
+                <p class="linha corCinza">Renderização vertical para Instagram</p>
+                <p class="linha corCinza">Técnicas profissionais</p>
+                <p class="linha corCinza">Asfalto molhado</p>
+                <p class="linha corCinza">Vidro jateado</p>
+                <p class="linha corCinza">Vidro canelado</p>
+                <p class="linha corCinza">Grama realista</p>
+                <p class="linha corCinza">Edição de vídeo</p>
+                <a class="espacoComprar" href="https://www.enrriquesdesign.com/rendermais">
+                    <button class="botaoComprar2">Iniciar curso</button>
+                </a>
+            </div>
+
+            <div class="arrow setaPrecoInvertida">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+        <div class="secaoWhatsapp">
+            <img class="imagemWhatsapp" src="imagens/whatsapp.png">
+            <p class="fonteImportada texto38 textoBranco">Ainda tem dúvidas?</p>
+            <p class="fonteImportada texto38 textoBranco">Fale em nosso Whatsapp:</p>        
+            <a href="https://api.whatsapp.com/send?phone=5582988982520&text=Oi!%20Quero%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20de%20renderiza%C3%A7%C3%A3o">
+                <button class="botaoWhatsapp">Falar no Whatsapp</button>
+            </a>
+        </div>
+
+    </body>
+
+    <script src="script.js"></script>  
+
+</html>
